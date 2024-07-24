@@ -1,0 +1,105 @@
+/* Body styling */
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Container for header content */
+.container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    max-width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Poster image styling */
+.poster {
+    max-width: 100%;
+    max-height: 100vh;
+    width: 50%;
+    height: auto;
+}
+
+/* Heading styling */
+.heading {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #EE2A00;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+/* Main title section */
+.main-title {
+    position: absolute;
+    bottom: 125px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 80%;
+    height: auto;
+}
+
+/* Subtitle styling */
+.subtitle {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    color: #EE2A00;
+    transform: translateX(-50%);
+    font-size: 0.6em;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Credits section */
+.credits {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.75em;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: "Amatic SC", sans-serif;
+}
+
+/* Margin for credits paragraph */
+.credits p {
+    margin: 80px 0;
+}
+
+/* Logos in the footer */
+.logos {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Logo image styling */
+.logos img {
+    margin: 0 10px;
+    max-height: 25px;
+    opacity: 0.5;
+}
+
+/* Trailer link styling */
+.trailer a {
+    color: #EE2A00;
+    text-decoration: none;
+    font-size: 1.2em;
+}
